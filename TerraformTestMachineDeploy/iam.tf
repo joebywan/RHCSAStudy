@@ -1,3 +1,4 @@
+#Assumerole role
 resource "aws_iam_role" "ec2_ssm_role" {
   name               = "ssm-ec2"
   assume_role_policy = <<EOF

@@ -1,3 +1,4 @@
+#RHEL AMI
 data "aws_ami" "rhel_ami" {
   most_recent = true
 
